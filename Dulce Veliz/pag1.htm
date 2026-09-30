@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi mundo Minecraft</title>
+
+    <!-- Fuente pixelada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    
+    <section id="inicio" class="pantalla-inicio">
+
+      
+        <div class="titulo-contenedor">
+            <h1>BIENVENIDO</h1>
+            <h2>A ESTE MUNDO</h2>
+
+            
+
+            <button id="botonEmpezar">EMPEZAR</button>
+        </div>
+
+       
+
+    </section>
+
+
+    
+    <section id="contenido" class="contenido">
+
+        <header>
+            <h1>⛏️ MINECRAFT 🧱</h1>
+            <p>Un mundo donde puedes construir, explorar y sobrevivir.</p>
+        </header>
+        <img src="mai.jpg" alt="Minecraft" class="imagen-minecraft">
+
+        <div class="texto-minecraft">
+
+            <h2>🌎 ¿Qué es Minecraft?</h2>
+
+            <p>
+                Minecraft es un videojuego de mundo abierto en el que puedes
+                explorar enormes paisajes, recolectar recursos, construir
+                estructuras y enfrentarte a diferentes criaturas.
+            </p>
+
+            <p>
+                El mundo está formado por bloques que puedes colocar,
+                destruir y utilizar para crear prácticamente cualquier cosa
+                que puedas imaginar.
+            </p>
+
+            <p>
+                Puedes jugar explorando tranquilamente, construyendo grandes
+                ciudades o intentando sobrevivir durante la noche.
+            </p>
+
+        </div>
+
+
+        
+
+        <h2 class="titulo-caracteristicas">✨ CARACTERÍSTICAS ✨</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta" onclick="mostrarInfo('explorar')">
+                <div class="emoji">🌎</div>
+                <h3>EXPLORAR</h3>
+                <p>Haz clic para descubrir</p>
+            </div>
+
+            <div class="tarjeta" onclick="mostrarInfo('construir')">
+                <div class="emoji">🏠</div>
+                <h3>CONSTRUIR</h3>
+                <p>Haz clic para descubrir</p>
+            </div>
+
+            <div class="tarjeta" onclick="mostrarInfo('sobrevivir')">
+                <div class="emoji">🧟</div>
+                <h3>SOBREVIVIR</h3>
+                <p>Haz clic para descubrir</p>
+            </div>
+
+            <div class="tarjeta" onclick="mostrarInfo('crear')">
+                <div class="emoji">⚒️</div>
+                <h3>CREAR</h3>
+                <p>Haz clic para descubrir</p>
+            </div>
+
+        </div>
+
+
+        
+
+        <div id="informacion" class="informacion">
+            <p>👆 Selecciona una característica para conocer más.</p>
+        </div>
+
+
+       
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="gojo.js"></script>
+
+</body>
+
+</html>
+
