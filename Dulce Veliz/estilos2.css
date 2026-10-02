@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Press Start 2P", cursive;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+/* =========================
+   NETHER
+========================= */
+
+.nether {
+    background:
+        linear-gradient(
+            rgba(70, 0, 0, 0.75),
+            rgba(20, 0, 0, 0.9)
+        ),
+        #8b2100;
+}
+
+
+/* =========================
+   END
+========================= */
+
+.end {
+    background:
+        linear-gradient(
+            rgba(20, 0, 35, 0.8),
+            rgba(5, 0, 15, 0.95)
+        ),
+        #16002d;
+}
+
+
+/* =========================
+   CONTENIDO
+========================= */
+
+.pagina {
+    width: 90%;
+    max-width: 800px;
+
+    padding: 40px;
+}
+
+
+/* TÍTULO */
+
+h1 {
+    font-size: 35px;
+
+    margin-bottom: 30px;
+
+    text-shadow:
+        5px 5px 0 #000;
+}
+
+
+/* TEXTO */
+
+.pagina > p {
+    font-family: Arial, sans-serif;
+
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+}
+
+
+/* CUADRO */
+
+.bloque {
+    background: rgba(0, 0, 0, 0.55);
+
+    border: 4px solid #111;
+
+    padding: 30px;
+
+    box-shadow:
+        7px 7px 0 #000;
+}
+
+.bloque h2 {
+    font-size: 20px;
+
+    margin-bottom: 25px;
+}
+
+.bloque p {
+    font-family: Arial, sans-serif;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+}
+
+
+/* BOTONES */
+
+.botones {
+    margin-top: 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.botones a {
+    text-decoration: none;
+
+    color: white;
+
+    background: #555;
+
+    border: 4px solid #222;
+
+    padding: 18px 20px;
+
+    font-size: 12px;
+
+    box-shadow:
+        5px 5px 0 #111;
+
+    transition: 0.2s;
+}
+
+.botones a:hover {
+    transform: translateY(-4px);
+
+    background: #777;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .pagina > p {
+        font-size: 16px;
+    }
+
+    .bloque h2 {
+        font-size: 16px;
+    }
+
+    .botones a {
+        font-size: 10px;
+    }
+
+}
+

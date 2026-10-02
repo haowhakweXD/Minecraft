@@ -138,9 +138,7 @@ body {
 }
 
 
-/* =========================
-   ENCABEZADO
-========================= */
+
 
 header {
     text-align: center;
@@ -166,9 +164,7 @@ header p {
 }
 
 
-/* =========================
-   TEXTO
-========================= */
+
 
 .texto-minecraft {
     max-width: 900px;
@@ -231,7 +227,6 @@ header p {
 }
 
 
-/* TARJETAS */
 
 .tarjeta {
     background: #383838;
@@ -343,9 +338,6 @@ footer p {
 }
 
 
-/* =========================
-   CELULAR
-========================= */
 
 @media (max-width: 700px) {
 
